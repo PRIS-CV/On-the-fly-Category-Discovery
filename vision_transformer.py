@@ -347,7 +347,7 @@ class BASEHead(nn.Module):
         x = self.mlp(x)
         x = self.head(x)
         
-#         x = self.bn(x)
+        x = self.bn(x)
     
         return x, x, x
 

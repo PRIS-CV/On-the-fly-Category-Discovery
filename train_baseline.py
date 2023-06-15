@@ -180,16 +180,9 @@ def train(projection_head, model, train_loader, test_loader, unlabelled_train_lo
 
 
         with torch.no_grad():
-
-            print('Testing on unlabelled examples in the training data...')
             all_acc, old_acc, new_acc = test_on_the_fly(model, projection_head, unlabelled_train_loader,
                                                     epoch=epoch, save_name='Train ACC Unlabelled',
                                                     args=args)
-
-            print('Testing on disjoint test set...')
-            all_acc_test, old_acc_test, new_acc_test = test_on_the_fly(model, projection_head, test_loader,
-                                                                   epoch=epoch, save_name='Test ACC',
-                                                                   args=args)
 
         # ----------------
         # LOG

@@ -33,7 +33,7 @@ If you find this paper useful in your research, please consider citing:
 @InProceedings{du2023on,
   title={On-the-fly Category Discovery},
   author={Du, Ruoyi and Chang, Dongliang and Liang, Kongming and Hospedales, Timothy and Song, Yi-Zhe and Ma, Zhanyu},
-  booktitle = {Computer Vision and Pattern Recognition},
+  booktitle = {IEEE/CVF International Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2023}
 }
 ```
